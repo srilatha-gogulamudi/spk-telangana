@@ -1,3 +1,9 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.color-danger{
+    color:#F33F33;
+}
 .w-30{
     width:30%;
 }
