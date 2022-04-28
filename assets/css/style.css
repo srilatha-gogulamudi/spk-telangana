@@ -9,7 +9,13 @@ h1,h2,h3,h4,h5,h6,p{
     color:#5A5A5A
 }
 .color-danger{
-    color:#F33F33;
+    color:#EE1718;
+}
+.bg-danger-1{
+    background-color: #EE1718;
+}
+.border-danger{
+    border:1px solid #EE1718
 }
 .color-gray{
     color:#5A5D80
@@ -44,7 +50,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .card-out-border:after{
     content: '';
-    border: 1px solid red;
+    border: 2px solid #FFDF68;
     width: 360px;
     height: 355px;
     position: absolute;
@@ -60,6 +66,22 @@ h1,h2,h3,h4,h5,h6,p{
 .fw-600{
     font-weight:600;
 }
+.fw-500{
+    font-weight:500
+}
 .br-16{
     border-radius:16px;
+}
+.fs-48{
+    font-size:48px;
+}
+.home-nav-ul li a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.cards-bg{
+    background:#FFEEEE;
+}
+.fs-14{
+    font-size:14px;
 }
