@@ -1,13 +1,65 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color:#5A5A5A
+}
+h1,h2,h3,h4,h5,h6,p{
+    color:#5A5A5A
+}
+.text-light-1{
+    color:#5A5A5A
 }
 .color-danger{
     color:#F33F33;
+}
+.color-gray{
+    color:#5A5D80
+}
+.bg-light-1{
+    background-color:#FFEEEE
+}
+.text-decoration-none{
+    text-decoration:none !important;
+}
+.custom-mt-n5{
+    margin-top:-30%;
+}
+.custom-mt-n6{
+    margin-top:-29%;
+}
+.custom-ls-1{
+    letter-spacing:1px;
+}
+.custm-lh-1{
+    line-height:2;
 }
 .w-30{
     width:30%;
 }
 .contact_list li{
-    color:#fff;
+    color:#5A5A5A;
     list-style-type: none;
+}
+.br-23{
+    border-radius:23px;
+}
+.card-out-border:after{
+    content: '';
+    border: 1px solid red;
+    width: 360px;
+    height: 355px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 23px;
+    margin-top: 100px;
+    margin-left: -23px;
+
+}
+.register_bg{
+    background: url('../img/register-bg.svg');
+}
+.fw-600{
+    font-weight:600;
+}
+.br-16{
+    border-radius:16px;
 }
