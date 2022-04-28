@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    color:#5A5A5A
+    color:#5A5A5A;
+    background-color:#F7F7F7;
 }
 h1,h2,h3,h4,h5,h6,p{
     color:#5A5A5A
@@ -84,4 +85,36 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .fs-14{
     font-size:14px;
+}
+.shadow{
+    box-shadow: 10px 1px 24px rgba(0,0,0, .12) !important;
+}
+.z-1{
+    z-index:99;
+}
+.br-8{
+    border-radius:12px;
+}
+.h-200{
+    height:200px;
+}
+.h-90{
+    height:90%;
+}
+.form-wrapper .form-select, .form-wrapper .form-control{
+    border:1px solid #EEEEEE;
+    height:50px;
+    color:#5A5A5A;
+    font-size:16px;
+}
+.form-wrapper label{
+    font-weight:bold;
+    color:#5A5A5A;
+    font-size: 14px;
+}
+.mem-nav-pills .nav-link.active, .mem-nav-pills .show>.nav-link{
+    border-bottom:2px solid #EE1718;
+    background:transparent;
+    border-radius:0;
+    color:#5A5A5A;
 }
