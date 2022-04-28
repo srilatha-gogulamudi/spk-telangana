@@ -3,6 +3,9 @@ body{
     color:#5A5A5A;
     background-color:#F7F7F7;
 }
+.ramabadra-font{
+    font-family: 'Ramabhadra', sans-serif;
+}
 h1,h2,h3,h4,h5,h6,p{
     color:#5A5A5A
 }
@@ -80,6 +83,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 14px;
     font-weight: 600;
 }
+.home-nav-ul li .active{
+    color:#EE1718 !important;
+}
 .cards-bg{
     background:#FFEEEE;
 }
@@ -103,7 +109,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .form-wrapper .form-select, .form-wrapper .form-control{
     border:1px solid #EEEEEE;
-    height:50px;
+    height:45px;
     color:#5A5A5A;
     font-size:16px;
 }
@@ -116,5 +122,19 @@ h1,h2,h3,h4,h5,h6,p{
     border-bottom:2px solid #EE1718;
     background:transparent;
     border-radius:0;
-    color:#5A5A5A;
+    color:#EE1718;
+}
+.radio-btn-red .form-check-input:checked{
+    background-color: #EE1718;
+    border: 1px solid #EE1718;
+}
+.mem-banner-1{
+    background-image: url(../img/mem-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9% 0;
+}
+.mem-nav-pills li button{
+    max-width:240px;
 }
