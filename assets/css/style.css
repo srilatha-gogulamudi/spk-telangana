@@ -1,13 +1,140 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color:#5A5A5A;
+    background-color:#F7F7F7;
+}
+.ramabadra-font{
+    font-family: 'Ramabhadra', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color:#5A5A5A
+}
+.text-light-1{
+    color:#5A5A5A
 }
 .color-danger{
-    color:#F33F33;
+    color:#EE1718;
+}
+.bg-danger-1{
+    background-color: #EE1718;
+}
+.border-danger{
+    border:1px solid #EE1718
+}
+.color-gray{
+    color:#5A5D80
+}
+.bg-light-1{
+    background-color:#FFEEEE
+}
+.text-decoration-none{
+    text-decoration:none !important;
+}
+.custom-mt-n5{
+    margin-top:-30%;
+}
+.custom-mt-n6{
+    margin-top:-29%;
+}
+.custom-ls-1{
+    letter-spacing:1px;
+}
+.custm-lh-1{
+    line-height:2;
 }
 .w-30{
     width:30%;
 }
 .contact_list li{
-    color:#fff;
+    color:#5A5A5A;
     list-style-type: none;
+}
+.br-23{
+    border-radius:23px;
+}
+.card-out-border:after{
+    content: '';
+    border: 2px solid #FFDF68;
+    width: 360px;
+    height: 355px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 23px;
+    margin-top: 100px;
+    margin-left: -23px;
+
+}
+.register_bg{
+    background: url('../img/register-bg.svg');
+}
+.fw-600{
+    font-weight:600;
+}
+.fw-500{
+    font-weight:500
+}
+.br-16{
+    border-radius:16px;
+}
+.fs-48{
+    font-size:48px;
+}
+.home-nav-ul li a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.home-nav-ul li .active{
+    color:#EE1718 !important;
+}
+.cards-bg{
+    background:#FFEEEE;
+}
+.fs-14{
+    font-size:14px;
+}
+.shadow{
+    box-shadow: 10px 1px 24px rgba(0,0,0, .12) !important;
+}
+.z-1{
+    z-index:99;
+}
+.br-8{
+    border-radius:12px;
+}
+.h-200{
+    height:200px;
+}
+.h-90{
+    height:90%;
+}
+.form-wrapper .form-select, .form-wrapper .form-control{
+    border:1px solid #EEEEEE;
+    height:45px;
+    color:#5A5A5A;
+    font-size:16px;
+}
+.form-wrapper label{
+    font-weight:bold;
+    color:#5A5A5A;
+    font-size: 14px;
+}
+.mem-nav-pills .nav-link.active, .mem-nav-pills .show>.nav-link{
+    border-bottom:2px solid #EE1718;
+    background:transparent;
+    border-radius:0;
+    color:#EE1718;
+}
+.radio-btn-red .form-check-input:checked{
+    background-color: #EE1718;
+    border: 1px solid #EE1718;
+}
+.mem-banner-1{
+    background-image: url(../img/mem-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9% 0;
+}
+.mem-nav-pills li button{
+    max-width:240px;
 }
