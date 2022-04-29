@@ -12,7 +12,7 @@
        </div>
       </div>
     </div>
-    <form id="member_form">
+    <form id="member_form" method="POST" action="pay.php">
     <div class="row bg-white">
       <div class="col-md-10 mx-auto">
         <ul class="nav nav-pills justify-content-between w-100 mb-0 mem-nav-pills" id="pills-tab" role="tablist">
@@ -73,7 +73,7 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="title" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
-                  <select class="form-select" aria-label="Default select example" required>
+                  <select class="form-select" aria-label="Default select example">
                     <option selected>Select one of the options</option>
                     <option value="1">Mr</option>
                     <option value="2">Mrs</option>
@@ -86,7 +86,7 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="fname" class="form-label">First Name</label>
-                  <input type="text" class="form-control" id="fname" aria-describedby="doahelp" required>
+                  <input type="text" class="form-control" id="fname" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
