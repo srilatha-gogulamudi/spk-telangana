@@ -304,14 +304,16 @@
                     }
             }
         },
-        // submitHandler: function(validator, form, submitButton) {
-        //     // console.log(form)
-
-        //     // var fullName = [validator.getFieldElements('fname').val(),
-        //     //                 validator.getFieldElements('lname').val()].join(' ');
-        //     // alert('Hello ' + fullName);
-        //     // $('#staticBackdrop').modal('show');
-        // }
+        chooseMemship:{
+          validators: {
+                    notEmpty: {
+                        message: 'Please choose membership',
+                        rules: {
+                          chooseMemship:{required: true}
+                      }
+                    }
+                }
+        }
     });
 });
 </script>

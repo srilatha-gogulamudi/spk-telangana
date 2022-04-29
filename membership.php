@@ -41,10 +41,9 @@
                   <div class="col">
                     <div class="card border-0 shadow br-8 h-200">
                       <div class="card-body">
-                        <div class="form-group">
-                          <div class="radio">
-                          <input  type="radio" name="chooseMemship" id="<?= $val['m_id'] ?>" required>
-                          <label  for="<?= $val['m_id'] ?>">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="chooseMemship" id="<?= $val['m_id'] ?>">
+                          <label class="form-check-label fw-bold chooseMemship" for="<?= $val['m_id'] ?>">
                           <?= $val['m_tenure'] == 0 ? 'LIFETIME' : ($val['m_tenure'] . ' YEAR' . ($val['m_tenure'] > 1 ? 'S' : '')) ?>
                           </label>
                           </div>
