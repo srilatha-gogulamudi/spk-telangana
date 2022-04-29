@@ -26,7 +26,6 @@ if (empty($_POST['razorpay_payment_id']) === false)
             'razorpay_payment_id' => $_POST['razorpay_payment_id'],
             'razorpay_signature' => $_POST['razorpay_signature']
         );
-        echo json_encode($_POST);
         $api->utility->verifyPaymentSignature($attributes);
     }
     catch(SignatureVerificationError $e)
@@ -36,15 +35,18 @@ if (empty($_POST['razorpay_payment_id']) === false)
     }
 }
 
+include_once 'components/header.php';
 if ($success === true)
 {
-    $html = "<p>Your payment was successful</p>
-             <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
+?>
+    <h1>Your payment was successful</h1>
+<?php
 }
 else
 {
-    $html = "<p>Your payment failed</p>
-             <p>{$error}</p>";
+?>
+    <h1>Your payment was unsuccessful</h1>
+<?php
 }
-
-echo $html;
+include_once 'components/footer.php';
+?>

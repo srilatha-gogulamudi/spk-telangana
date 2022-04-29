@@ -7,7 +7,6 @@
 <script>
 // Checkout details as a json
 var options = <?php echo $json?>;
-
 /**
  * The entire list of Checkout fields is available at
  * https://docs.razorpay.com/docs/checkout-form#checkout-fields

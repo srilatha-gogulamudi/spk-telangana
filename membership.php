@@ -46,7 +46,6 @@
                           <label class="form-check-label fw-bold chooseMemship" for="<?= $val['m_id'] ?>">
                           <?= $val['m_tenure'] == 0 ? 'LIFETIME' : ($val['m_tenure'] . ' YEAR' . ($val['m_tenure'] > 1 ? 'S' : '')) ?>
                           </label>
-                          </div>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-middle align-items-center h-90">
                           <h3 class="card-text fw-bold text-light-1">RS <?= $val['m_price'] ?></h3>
@@ -66,7 +65,7 @@
     <div class="row form-wrapper mb-5">
       <div class="col-md-10 mx-auto">
         
-            <h4 class="fw-bold my-5">2. Member Details</h4>
+        <h4 class="fw-bold my-5">2. Member Details</h4>
         <div class="card border-0 shadow br-8">
           <div class="card-body">
             <h4 class="fw-bold my-4">Personal Details</h4>

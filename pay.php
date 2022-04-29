@@ -1,4 +1,6 @@
+
 <?php 
+    session_start();
     include_once 'components/header.php';
     echo json_encode($_POST);
 ?>
@@ -38,7 +40,7 @@
 
 require('config.php');
 require('razorpay-php/Razorpay.php');
-// session_start();
+
 
 // Create the Razorpay Order
 
