@@ -2,6 +2,8 @@
 <html>
 <head>
 <title>Sphoorthi Kutumbam</title>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="./assets/css/style.css" rel="stylesheet">

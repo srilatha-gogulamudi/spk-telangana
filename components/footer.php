@@ -294,6 +294,16 @@
                 }
             }
         },
+        chooseMemship:{
+          validators: {
+                    notEmpty: {
+                        message: 'Please choose membership',
+                        rules: {
+                          chooseMemship:{required: true}
+                      }
+                    }
+                }
+        },
         submitHandler: function(validator, form, submitButton) {
           debugger
             var fullName = [validator.getFieldElements('fname').val(),
