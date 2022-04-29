@@ -2,7 +2,7 @@
 <?php 
     session_start();
     include_once 'components/header.php';
-    echo json_encode($_POST);
+    // echo json_encode($_POST);
 ?>
 
 <div class="container">
@@ -10,8 +10,14 @@
 		<div class="col-sm-12">	
 			<h2>Example: Razorpay Payment Gateway Integration in PHP</h2>
 			<br><br>
-			<div class="col-sm-4 col-lg-4 col-md-4">
-				<div class="thumbnail">
+            <div class="col-lg-5 col-md-8 mx-auto">
+            <div class="card shadow br-16 p-3">
+                <div class="">
+                    <p class="fw-500"> <?= ($_POST)['memtitle'],  ($_POST)['fname'], ($_POST)['lname'] ?></p>
+                    <p><?= ($_POST)['houseno'],  ($_POST)['street1'] ?></p>
+                    <p><?= ($_POST)['state'],  ($_POST)['country'] ?></p>
+                </div>
+                <div class="thumbnail">
 					<img src="prod.gif" alt="">
 					<div class="caption">
 						<h4 class="pull-right">₹49.99</h4>
@@ -28,10 +34,12 @@
 						<input type="hidden" name="cust_name" value="phpzag">								
 						<input type="hidden" name="email" value="test@phpzag.com">	
 						<input type="hidden" name="contact" value="9999999999">								
-						<input type="submit" class="btn btn-primary" value="Buy Now">					
+						<!-- <input type="submit" class="btn btn-primary" value="Buy Now">					 -->
 					</form>						
 				</div>
-			</div>
+            </div>
+        </div>
+			
 		</div>
 	</div>	
 </div>
