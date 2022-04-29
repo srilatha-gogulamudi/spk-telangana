@@ -72,8 +72,13 @@
             <div class="row mb-4">
               <div class="col-md-4">
                 <div class="mb-3">
+<<<<<<< HEAD
                   <label for="title" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
                   <select class="form-select" aria-label="Default select example">
+=======
+                  <label for="memtitle" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
+                  <select class="form-select" id="memtitle" name="memtitle" aria-label="Default select example" required>
+>>>>>>> dev-srilatha
                     <option selected>Select one of the options</option>
                     <option value="1">Mr</option>
                     <option value="2">Mrs</option>
@@ -86,19 +91,23 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="fname" class="form-label">First Name</label>
+<<<<<<< HEAD
                   <input type="text" class="form-control" id="fname" aria-describedby="doahelp">
+=======
+                  <input type="text" class="form-control" name="fname" id="fname" aria-describedby="doahelp" required>
+>>>>>>> dev-srilatha
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="lname" class="form-label">Last Name</label>
-                  <input type="text" class="form-control" id="lname" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="lname" id="lname" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="dob" class="form-label">Date of Birth</label>
-                  <input type="date" class="form-control" id="dob" aria-describedby="doahelp">
+                  <input type="date" class="form-control" name="dob" id="dob" aria-describedby="doahelp">
                 </div>
               </div>
             </div>
@@ -106,26 +115,26 @@
             <div class="row mb-4">
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="lname" class="form-label">Occupation</label>
-                  <input type="text" class="form-control" id="lname" aria-describedby="doahelp">
+                  <label for="occupation" class="form-label">Occupation</label>
+                  <input type="text" class="form-control" name="occupation" id="occupation" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="des" class="form-label">Designation</label>
-                  <input type="text" class="form-control" id="des" aria-describedby="doahelp">
+                  <label for="designation" class="form-label">Designation</label>
+                  <input type="text" class="form-control" name="designation" id="designation" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="dep" class="form-label">Department / Industry</label>
-                  <input type="text" class="form-control" id="dep" aria-describedby="doahelp">
+                  <label for="department" class="form-label">Department / Industry</label>
+                  <input type="text" class="form-control" name="department" id="department" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="org" class="form-label">Organization</label>
-                  <input type="text" class="form-control" id="org" aria-describedby="doahelp">
+                  <label for="organization" class="form-label">Organization</label>
+                  <input type="text" class="form-control" name="organization" id="organization" aria-describedby="doahelp">
                 </div>
               </div>
             </div>
@@ -134,49 +143,49 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="houseno" class="form-label">House No</label>
-                  <input type="text" class="form-control" id="houseno" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="houseno" id="houseno" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="street 1" class="form-label">Street 1</label>
-                  <input type="text" class="form-control" id="street 1" aria-describedby="doahelp">
+                  <label for="street1" class="form-label">Street 1</label>
+                  <input type="text" class="form-control" name="street1" id="street1" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="street 2" class="form-label">Street 2</label>
-                  <input type="text" class="form-control" id="street 2" aria-describedby="doahelp">
+                  <label for="street2" class="form-label">Street 2</label>
+                  <input type="text" class="form-control" name="street2" id="street2" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="locality" class="form-label">Locality</label>
-                  <input type="text" class="form-control" id="locality" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="locality" id="locality" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="toencity" class="form-label">Town/City</label>
-                  <input type="text" class="form-control" id="toencity" aria-describedby="doahelp">
+                  <label for="towncity" class="form-label">Town/City</label>
+                  <input type="text" class="form-control" name="towncity" id="towncity" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="pincode" class="form-label">Pin Code</label>
-                  <input type="text" class="form-control" id="pincode" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="pincode" id="pincode" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="state" class="form-label">State</label>
-                  <input type="text" class="form-control" id="state" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="state" id="state" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="country" class="form-label">Country</label>
-                  <input type="text" class="form-control" id="country" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="country" id="country" aria-describedby="doahelp">
                 </div>
               </div>
             </div>
@@ -185,33 +194,43 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="email" class="form-label">Email ID</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="doahelp">
+                  <input type="email" class="form-control" name="email" id="email" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="phone1" class="form-label">Phone 1</label>
-                  <input type="text" class="form-control" id="phone1" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="phone1" id="phone1" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="phone2" class="form-label">Phone 2</label>
-                  <input type="text" class="form-control" id="phone2" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="phone2" id="phone2" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="whatsapp" class="form-label">Whatsapp No</label>
-                  <input type="text" class="form-control" id="whatsapp" aria-describedby="doahelp">
+                  <input type="text" class="form-control" name="whatsapp" id="whatsapp" aria-describedby="doahelp">
                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="form-check declaration">
+                <input class="form-check-input" name="declaremyself" type="checkbox" value="" id="declaremyself">
+                <label class="form-check-label" for="declaremyself">
+                I hereby declare that the information povides is true to the best of my knowldge. I will abide by the member guidelines and code of conduct of sphoorthi kutumbam
+                </label>
+              </div>
               </div>
             </div>
             <div class="row">
               <div class="col-md-12 me-auto">
                 <div class="d-flex justify-content-end py-3">
                   <button type="button" class="btn btn-secondary rounded-0 fs-14 ls-1 fw-600 px-4 me-3">CANCEL</button>
-                  <button type="submit" class="btn bg-danger-1 text-white fs-14 ls-1 fw-600 px-4">CONTINUE</button>
+                  <button type="submit" class="btn bg-danger-1 text-white fs-14 ls-1 fw-600 px-4" id="continueBtn">CONTINUE</button>
                 </div>
               </div>
             </div>
