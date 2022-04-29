@@ -292,15 +292,26 @@
                       }
                     }
                 }
+            },
+            chooseMemship:{
+              validators: {
+                        notEmpty: {
+                            message: 'Please choose membership',
+                            rules: {
+                              required: true
+                          }
+                        }
+                    }
             }
         },
-        submitHandler: function(validator, form, submitButton) {
-          debugger
-            var fullName = [validator.getFieldElements('fname').val(),
-                            validator.getFieldElements('lname').val()].join(' ');
-            // alert('Hello ' + fullName);
-            $('#staticBackdrop').modal('show');
-        }
+        // submitHandler: function(validator, form, submitButton) {
+        //     // console.log(form)
+
+        //     // var fullName = [validator.getFieldElements('fname').val(),
+        //     //                 validator.getFieldElements('lname').val()].join(' ');
+        //     // alert('Hello ' + fullName);
+        //     // $('#staticBackdrop').modal('show');
+        // }
     });
 });
 </script>

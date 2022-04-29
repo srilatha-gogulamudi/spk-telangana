@@ -41,11 +41,13 @@
                   <div class="col">
                     <div class="card border-0 shadow br-8 h-200">
                       <div class="card-body">
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="<?= $val['m_id'] ?>">
-                          <label class="form-check-label fw-bold" for="<?= $val['m_id'] ?>">
+                        <div class="form-group">
+                          <div class="radio">
+                          <input  type="radio" name="chooseMemship" id="<?= $val['m_id'] ?>" required>
+                          <label  for="<?= $val['m_id'] ?>">
                           <?= $val['m_tenure'] == 0 ? 'LIFETIME' : ($val['m_tenure'] . ' YEAR' . ($val['m_tenure'] > 1 ? 'S' : '')) ?>
                           </label>
+                          </div>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-middle align-items-center h-90">
                           <h3 class="card-text fw-bold text-light-1">RS <?= $val['m_price'] ?></h3>

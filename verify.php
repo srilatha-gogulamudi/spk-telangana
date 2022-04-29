@@ -26,7 +26,7 @@ if (empty($_POST['razorpay_payment_id']) === false)
             'razorpay_payment_id' => $_POST['razorpay_payment_id'],
             'razorpay_signature' => $_POST['razorpay_signature']
         );
-
+        echo json_encode($_POST);
         $api->utility->verifyPaymentSignature($attributes);
     }
     catch(SignatureVerificationError $e)
