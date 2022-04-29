@@ -36,7 +36,7 @@
           <div class="tab-pane fade <?= $active_tab == $value['m_type'] ? 'show active' : '' ?>" id="<?= $value['m_type'] ?>" role="tabpanel" aria-labelledby="pills-young-tab">
             <div class="row">
               <div class="col-md-12">
-                <div class="row row-cols-2 row-cols-md-4 g-4 my-3">
+                <div class="row row-cols-1 row-cols-md-4 g-4 my-3">
                   <?php foreach($membership_list[$value['m_type']] as $k=>$val): ?>
                   <div class="col">
                     <div class="card border-0 shadow br-8 h-200">
@@ -75,11 +75,11 @@
                   <label for="memtitle" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
                   <select class="form-select" id="memtitle" name="memtitle" aria-label="Default select example" required>
                     <option selected>Select one of the options</option>
-                    <option value="1">Mr</option>
-                    <option value="2">Mrs</option>
-                    <option value="3">Ms</option>
-                    <option value="3">Dr</option>
-                    <option value="3">Prof</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Prof">Prof</option>
                   </select>
                 </div>
               </div>

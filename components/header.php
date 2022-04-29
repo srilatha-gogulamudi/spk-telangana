@@ -14,20 +14,20 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow bg-white py-0 z-1">
         <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="assets/img/ts_logo.png" width="100px" alt="logo"> 
+          <a class="navbar-brand d-flex align-items-center" href="index.php">
+            <img src="assets/img/ts_logo.png" width="100px" class="logo-mobile" alt="logo"> 
             <div class="d-flex flex-column ps-3">
-              <h3 class="color-danger fw-bold mb-0 pt-3">SPHOORTHI KUTUMBAM</h3>
-              <p class="ramabadra-font">గ్లోబల్ మానవతా స్ఫూర్తి - స్ఫూర్తి కుటుంబ ధ్యేయం</p>
+              <h3 class="color-danger fw-bold mb-0 pt-3 title_mobile_font">SPHOORTHI KUTUMBAM</h3>
+              <p class="ramabadra-font telugu-font-mobile">గ్లోబల్ మానవతా స్ఫూర్తి - స్ఫూర్తి కుటుంబ ధ్యేయం</p>
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 home-nav-ul">
               <li class="nav-item pe-2">
-                <a class="nav-link text-uppercase active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link text-uppercase active" aria-current="page" href="index.php">Home</a>
               </li>
               <li class="nav-item pe-2">
                 <a class="nav-link" href="#">THE SCIENTIFIC SAINT</a>

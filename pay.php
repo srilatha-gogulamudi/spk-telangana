@@ -14,7 +14,7 @@
             <div class="card shadow br-16 p-3">
                 <div class="">
                     <p class="fw-500"> <?= ($_POST)['memtitle'],  ($_POST)['fname'], ($_POST)['lname'] ?></p>
-                    <p><?= ($_POST)['houseno'],  ($_POST)['street1'] ?></p>
+                    <p class="font-weight-normal mb-0"><span class="fw-600">Address:</span> <?= ($_POST)['houseno'],  ($_POST)['street1'] ?></p>
                     <p><?= ($_POST)['state'],  ($_POST)['country'] ?></p>
                 </div>
                 <div class="thumbnail">

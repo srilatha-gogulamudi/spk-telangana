@@ -39,18 +39,21 @@ include_once 'components/header.php';
 if ($success === true)
 {
 ?>
-    <div class="card border-0 shadow br-16 col-5 px-3 py-5 mx-auto my-5">
+    <div class="card border-0 shadow br-16 col-md-5 px-3 py-5 mx-auto my-5">
         <h2 class="text-success">Your payment was successful</h2>
         <p class="fs-14">your payment was successfull. we send dispact your membership card</p>
+        <a href="index.php" class="btn bg-danger-1 text-white br-16 px-3 py-2 my-4 text-right">Back to Home</a>
     </div>
 <?php
 }
 else
 {
 ?>
-    <div class="card br-16 border-0 shadow col-5 px-3 py-5 mx-auto my-3 my-5">
+    <div class="card br-16 border-0 shadow col-md-5 px-3 py-5 mx-auto my-3 my-5">
         <h2 class="text-danger">Your payment was unsuccessful</h2>
         <p>your payment was unsuccessful. we resend your money.</p>
+        <a href="index.php" class="btn bg-danger-1 text-white br-16 px-3 py-2">Back to Home</a>
+
     </div>
 <?php
 }
