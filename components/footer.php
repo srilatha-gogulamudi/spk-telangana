@@ -44,6 +44,25 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content border-0 shadow-1">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p><span class="fw-bold">Membership type: </span> Individual</p>
+        <p><span class="fw-600">Amount to be paid:</span> 800</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary fs-14" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn bg-danger-1 fs-14 text-white">Procced to pay</button>
+      </div>
+    </div>
+  </div>
+</div>
 <script>
   $(document).ready(function() {
     $('#member_form').bootstrapValidator({
@@ -53,42 +72,234 @@
             validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            firstName: {
+          fname: {
                 validators: {
                     notEmpty: {
-                        message: 'The first name is required and cannot be empty'
+                        message: 'The first name is required and cannot be empty',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
                     }
                 }
             },
-            lastName: {
+            lname: {
                 validators: {
                     notEmpty: {
-                        message: 'The last name is required and cannot be empty'
+                        message: 'The last name is required and cannot be empty',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            dob: {
+                validators: {
+                    notEmpty: {
+                        message: 'The Date of Birth is required',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            occupation: {
+                validators: {
+                    notEmpty: {
+                        message: 'The occupation is required',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            designation: {
+                validators: {
+                    notEmpty: {
+                        message: 'The designation is required',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            department: {
+                validators: {
+                    notEmpty: {
+                        message: 'The department is required',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            organization: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter organization name',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            houseno: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter  houseno',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            street1: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter  street1',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            locality: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter locality',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            towncity: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter town/city',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            pincode: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter pincode',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            state: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter your state',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            country: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter country name',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
                     }
                 }
             },
             email: {
                 validators: {
                     notEmpty: {
-                        message: 'The email address is required'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
+                        message: 'Please enter email',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        },
+                        email: "Please enter a valid email address!"
                     }
                 }
             },
-            gender: {
+            phone1: {
                 validators: {
                     notEmpty: {
-                        message: 'The gender is required'
+                        message: 'Please enter phone number',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            phone2: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter lternate phone number',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            whatsapp: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter whatsapp number',
+                        rules:{
+                          required: true,
+                          minlength: 1,
+                        }
+                    }
+                }
+            },
+            memtitle: {
+                validators: {
+                    notEmpty: {
+                        messages: {
+                          memtitle: { valueNotEquals: "Please select an item!" }
+                        },
+                        rules:{
+                          memtitle: { valueNotEquals: "default" }
+                        }
+                    }
+                }
+            },
+            declaremyself: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please confirm declaration',
+                        rules: {
+                          required: true
+                      }
                     }
                 }
             }
         },
         submitHandler: function(validator, form, submitButton) {
-            var fullName = [validator.getFieldElements('firstName').val(),
-                            validator.getFieldElements('lastName').val()].join(' ');
+          debugger
+            var fullName = [validator.getFieldElements('fname').val(),
+                            validator.getFieldElements('lname').val()].join(' ');
             // alert('Hello ' + fullName);
+            $('#staticBackdrop').modal('show');
         }
     });
 });
