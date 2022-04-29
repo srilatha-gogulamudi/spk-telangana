@@ -72,13 +72,8 @@
             <div class="row mb-4">
               <div class="col-md-4">
                 <div class="mb-3">
-<<<<<<< HEAD
-                  <label for="title" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
-                  <select class="form-select" aria-label="Default select example">
-=======
                   <label for="memtitle" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
                   <select class="form-select" id="memtitle" name="memtitle" aria-label="Default select example" required>
->>>>>>> dev-srilatha
                     <option selected>Select one of the options</option>
                     <option value="1">Mr</option>
                     <option value="2">Mrs</option>
@@ -91,11 +86,7 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="fname" class="form-label">First Name</label>
-<<<<<<< HEAD
-                  <input type="text" class="form-control" id="fname" aria-describedby="doahelp">
-=======
                   <input type="text" class="form-control" name="fname" id="fname" aria-describedby="doahelp" required>
->>>>>>> dev-srilatha
                 </div>
               </div>
               <div class="col-md-4">
