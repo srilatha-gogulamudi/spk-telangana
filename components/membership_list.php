@@ -22,6 +22,7 @@
     {
         $membership_list[] = $row;
     }
+    $membership_list_ungrp = $membership_list;
     $membership_list = _group_by($membership_list, 'm_type');
     $active_tab = $membership_grp[0]['m_type'];
     function _group_by($array, $key) {

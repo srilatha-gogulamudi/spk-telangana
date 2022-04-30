@@ -1,7 +1,6 @@
 <?php
 
 require('config.php');
-
 session_start();
 
 require('razorpay-php/Razorpay.php');
@@ -35,9 +34,12 @@ if (empty($_POST['razorpay_payment_id']) === false)
     }
 }
 
+include 'components/register.php';
+
 include_once 'components/header.php';
 if ($success === true)
 {
+
 ?>
     <div class="card border-0 shadow br-16 col-5 px-3 py-5 mx-auto my-5">
         <h2 class="text-success">Your payment was successful</h2>
@@ -54,5 +56,5 @@ else
     </div>
 <?php
 }
-include_once 'components/footer.php';
+// include_once 'components/footer.php';
 ?>
