@@ -10,15 +10,11 @@
     // Create the Razorpay Order
 
     use Razorpay\Api\Api;
-    $_SESSION['member_input'] = $_POST;
+    
     $api = new Api($keyId, $keySecret);
 
-    //
-    // We create an razorpay order using orders api
-    // Docs: https://docs.razorpay.com/docs/orders
-    //
+    // echo json_encode($_SESSION['member_input']);
 
-    // echo json_encode($membership_list_ungrp);
     $selected_membership = NULL;
     foreach($membership_list_ungrp as $obj) {
         if ($_POST['chooseMemship'] == $obj['m_id']) {
@@ -80,6 +76,18 @@ $razorpayOrder = $api->order->create($orderData);
 $razorpayOrderId = $razorpayOrder['id'];
 
 $_SESSION['razorpay_order_id'] = $razorpayOrderId;
+
+$_SESSION['member_input'] = $_POST;
+
+$key_arr = array("memtitle",  "fname", "lname", "dob" , "occupation", "designation", "department","organization",
+"houseno", "street1","street2", "locality", "towncity", "pincode", "state", "country", "email", "phone1",
+"phone2","whatsapp", "co", "coname", "reference", "volunteer", "reason");
+
+foreach($key_arr as $value) {
+    if (!array_key_exists($value,$_SESSION['member_input'])){
+        $_SESSION['member_input'][$value] = null;
+    }
+}
 
 $displayAmount = $amount = $orderData['amount'];
 if ($displayCurrency !== 'INR')
