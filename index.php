@@ -7,12 +7,12 @@
         <div class="row">
             <div class="col-md-12 px-0 position-relative">
                 <div class="d-flex flex-column align-items-center justify-content-center">
-                  <img src="assets/img/banner.jpeg" class="w-100" alt="logo">
+                  <img src="assets/img/banner.png" class="w-100" alt="logo">
                 </div>
                 <div class="position-absolute text-white col-md-12 d-md-flex banner-mobile-text custom-mt-n5">
                   <div class="col-md-6"></div>
                   <div class="col-md-6">
-                    <h5 class="custom-ls-1 mb-4 fw-normal text-white mobile-none">with divine blessings of The Scientific Saint his holiness</h5>
+                    <h5 class="custom-ls-1 mb-4 fw-normal text-white mobile-none">with the divine blessings of The Scientific Saint his Holiness</h5>
                     <h1 class="fw-bold mb-0 mt-2 fs-48 text-white">SRI SRI SRI GURU</h1>
                     <h1 class="fw-bold mt-0 fs-48 text-white">VISWASPHOORTHI </h1>
                     <h5 class="mt-4 text-white sub-title-m">– The Sphoorthi Kutumbam</h5>
@@ -40,7 +40,7 @@
             </div>
             <div class="col px-md-4 m-mb-2">
               <div class="card p-0 border-0 cards-bg border-radius-sm shadow br-23">
-                <img src="assets/img/viswa_sph.png" alt="activities">
+                <img src="assets/img/viswa_sph.svg" alt="activities">
                 <h5 class="fw-bold text-center my-0 py-3 text-uppercase">THE SCIENTIFIC SAINT</h5>
               </div>
             </div>

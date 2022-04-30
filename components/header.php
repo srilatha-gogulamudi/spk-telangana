@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#">TESTIMONIALS</a>
               </li> -->
               <li class="nav-item pe-2">
-                <a class="nav-link" href="membership.php">MEMEBERSHIP</a>
+                <a class="nav-link" href="membership.php">MEMBERSHIP</a>
               </li>
               <!-- <li class="nav-item pe-2">
                 <a class="nav-link" href="#">BLOG</a>

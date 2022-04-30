@@ -2,7 +2,7 @@
             <div class="col-md-7 px-0">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4678437343537!2d78.4530364!3d17.4373079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913ed4b2d2a7%3A0x6800fb65c891f411!2sSphoorthi%20Kutumbam!5e0!3m2!1sen!2sin!4v1651071323834!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="card col-md-5 border-0 rounded-0 p-3">
+            <div class="card col-md-5 bg-light-1 border-0 rounded-0 p-3">
               <h2>Contact us</h2>
               <h4 class="">Sphoorthi Kutumbam</h4>
               <p class="mb-0">(A Registered Spiritual Scientific and Humanitarian Charitable Trust)</p>

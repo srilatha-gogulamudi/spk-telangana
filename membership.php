@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-12 text-center px-0">
        <div class="mem-banner-1">
-        <h1 class="fw-600 color-danger ps-5">Join sphoorthikutumbam</h1>
+        <h1 class="fw-600 text-white custom-ps-1">Join sphoorthikutumbam</h1>
         <!-- <h1 class="fw-600 color-danger ps-5">Complete your registration</h1> -->
         <!-- <p class="custom-lh-2">Sphoorthi Kutumbam Trust (Telangana) offers membership in four different categories based on the nature of association of individuals with the trust</p> -->
        </div>
