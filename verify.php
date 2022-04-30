@@ -34,6 +34,14 @@ if (empty($_POST['razorpay_payment_id']) === false)
     }
 }
 
+$transact_details = array(
+    'razorpay_order_id' => $_SESSION['razorpay_order_id'],
+    'razorpay_payment_id' => $_POST['razorpay_payment_id'],
+    'tran_status' => $success ? 'success' : 'failed'
+);
+
+$_SESSION['transaction'] = $transact_details;
+
 include 'components/register.php';
 
 include_once 'components/header.php';
