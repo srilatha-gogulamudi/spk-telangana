@@ -36,7 +36,7 @@
       </div>
      </div>
     </div>
-    <footer class="bg-light-1 px-5 py-4 text-center border-top">
+    <footer class="bg-light-1 px-md-5 py-4 text-center border-top">
       <p class="my-0 py-1 fw-600 text-light-1 text-center">Copyright  &copy;2022 <span class="color-danger">Sphoorthi Kutumbam Telangana</span>, All rights reserved</p>
     </footer>
 </body>
