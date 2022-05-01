@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow bg-white py-0 z-1">
         <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center" href="index.php">
+          <a class="navbar-brand d-flex align-items-center" href="index">
             <img src="assets/img/ts_logo.png" width="100px" class="logo-mobile" alt="logo"> 
             <div class="d-flex flex-column ps-3">
               <h3 class="color-danger fw-bold mb-0 pt-3 title_mobile_font">SPHOORTHI KUTUMBAM</h3>
@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 home-nav-ul">
               <li class="nav-item pe-2">
-                <a class="nav-link text-uppercase" aria-current="page" href="index.php">Home</a>
+                <a class="nav-link text-uppercase <?= ($activePage == 'index') ? 'active':''; ?>" aria-current="page" href="index">Home</a>
               </li>
               <li class="nav-item pe-2">
                 <a class="nav-link" href="#">THE SCIENTIFIC SAINT</a>
@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#">TESTIMONIALS</a>
               </li> -->
               <li class="nav-item pe-2">
-                <a class="nav-link" href="membership.php">MEMBERSHIP</a>
+                <a class="nav-link tet-uppercase <?= ($activePage == 'membership') ? 'active':''; ?>" href="membership">MEMBERSHIP</a>
               </li>
               <!-- <li class="nav-item pe-2">
                 <a class="nav-link" href="#">BLOG</a>

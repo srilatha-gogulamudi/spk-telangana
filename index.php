@@ -1,4 +1,6 @@
 <?php
+ $activePage = basename($_SERVER['PHP_SELF'], ".php");
+
     include_once 'components/header.php';
 ?>
 
@@ -32,19 +34,19 @@
       <div class="row mb-5 mt-4">
         <div class="col-md-11 mx-auto text-center">
           <div class="row mb-md-5">
-            <div class="col px-md-4 m-mb-2 mt-md-5">
+            <div class="col col-md-4 px-md-4 m-mb-2 mt-md-5">
               <div class="card p-0 border-0 cards-bg border-radius-sm shadow br-23 card-out-border">
                 <img src="assets/img/activities.png" alt="activities">
                 <h5 class="fw-bold text-center my-0 py-3 text-uppercase">ACTIVITIES</h5>
               </div>
             </div>
-            <div class="col px-md-4 m-mb-2">
+            <div class="col col-md-4 px-md-4 m-mb-2">
               <div class="card p-0 border-0 cards-bg border-radius-sm shadow br-23">
-                <img src="assets/img/viswa_sph.svg" alt="activities">
+                <img src="assets/img/viswa_sph.png" alt="activities">
                 <h5 class="fw-bold text-center my-0 py-3 text-uppercase">THE SCIENTIFIC SAINT</h5>
               </div>
             </div>
-            <div class="col px-md-4 m-mb-2 mt-md-5">
+            <div class="col col-md-4 px-md-4 m-mb-2 mt-md-5">
               <div class="card p-0 border-0 cards-bg border-radius-sm shadow br-23 card-out-border">
                 <img src="assets/img/live-events.png" alt="activities">
                 <h5 class="fw-bold text-center my-0 py-3 text-uppercase">Prastana Sadhana</h5>
@@ -53,7 +55,7 @@
           </div>
           <div class="row mt-md-5 pt-md-5">
             <div class="col-md-12 mt-5">
-              <a class="btn btn-outline-danger border-danger color-danger rounded-pill px-5 py-3 fw-bold fs-6" href="#" role="button">VIEW ALL ACTIVITIES</a>
+              <a class="btn btn-outline-danger border-danger color-danger rounded-pill px-5 py-3 fw-bold fs-6" href="allevents" role="button">VIEW ALL ACTIVITIES</a>
             </div>
           </div>
         </div>
@@ -65,7 +67,7 @@
             <h1 class="fw-bold mb-4">Sphoorthi Kutumbam Membership</h1>
             <p class="custom-lh-2 py-4">Sphoorthi Kutumbam is offering membership of various choices to the disciples, followers and for those who wish to know more and follow the teachings of His Holiness and thus be part of the Sphoorthi Kutumbam.
             </p>
-            <a class="btn bg-danger-1 fs-14 rounded-pill text-white py-2 px-4 fs-6 fw-500" href="membership.php" role="button">REGISTER NOW</a>
+            <a class="btn bg-danger-1 fs-14 rounded-pill text-white py-2 px-4 fs-6 fw-500" href="membership" role="button">REGISTER NOW</a>
             </div>
 
           </div>

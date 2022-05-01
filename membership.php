@@ -1,4 +1,5 @@
 <?php
+    $activePage = basename($_SERVER['PHP_SELF'], ".php");
     include_once 'components/header.php';
     require_once 'components/membership_list.php'
 ?>
@@ -41,8 +42,8 @@
                   <div class="col">
                     <div class="card border-0 shadow br-8 h-200">
                       <div class="card-body">
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="chooseMemship" id="<?= $val['m_id'] ?>" value="<?= $val['m_id'] ?>">
+                        <div class="form-group validationRadio">
+                          <input class="form-check-input" type="radio" name="chooseMemship" id="<?= $val['m_id'] ?>" value="<?= $val['m_id'] ?>" required>
                           <label class="form-check-label fw-bold chooseMemship" for="<?= $val['m_id'] ?>">
                           <?= $val['m_tenure'] == 0 ? 'LIFETIME' : ($val['m_tenure'] . ' YEAR' . ($val['m_tenure'] > 1 ? 'S' : '')) ?>
                           </label>
@@ -53,6 +54,7 @@
                       </div>
                     </div>
                   </div>
+                  <p class="fs-14 color-danger fst-italic memshipError d-none">Please select membeship type</p>
                   <?php endforeach; ?>
                 </div>
               </div>
@@ -73,8 +75,8 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="memtitle" class="form-label">Title(Mr/Mrs/Ms/Dr/Prof/etc)</label>
-                  <select class="form-select" id="memtitle" name="memtitle" aria-label="Default select example" required>
-                    <option selected>Select one of the options</option>
+                  <select class="form-select"  class="required" id="memtitle" name="memtitle" aria-label="Default select example" required>
+                    <option value="" selected>Select one of the options</option>
                     <option value="Mr">Mr</option>
                     <option value="Mrs">Mrs</option>
                     <option value="Ms">Ms</option>
@@ -191,19 +193,19 @@
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="phone1" class="form-label">Phone 1</label>
-                  <input type="text" class="form-control" name="phone1" id="phone1" aria-describedby="doahelp">
+                  <input type="text" class="form-control" maxlength="10"  pattern="[1-9]{1}[0-9]{9}" name="phone1" id="phone1" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="phone2" class="form-label">Phone 2</label>
-                  <input type="text" class="form-control" name="phone2" id="phone2" aria-describedby="doahelp">
+                  <input type="text" class="form-control" maxlength="10"  pattern="[1-9]{1}[0-9]{9}" name="phone2" id="phone2" aria-describedby="doahelp">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
                   <label for="whatsapp" class="form-label">Whatsapp No</label>
-                  <input type="text" class="form-control" name="whatsapp" id="whatsapp" aria-describedby="doahelp">
+                  <input type="text" class="form-control" maxlength="10"  pattern="[1-9]{1}[0-9]{9}" name="whatsapp" id="whatsapp" aria-describedby="doahelp">
                 </div>
               </div>
             </div>

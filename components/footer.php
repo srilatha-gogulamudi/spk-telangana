@@ -22,8 +22,8 @@
       <div class="col-md-12 text-center">
         <div class="mx-auto text-center">
           <ul class="nav mx-auto justify-content-center py-5">
-            <li class="me-3"><a href="privacy-policy.html" class="color-gray text-decoration-none fw-600 text-uppercase me-3 fs-6">PRIVACY POLICY</a></li>
-            <li class="me-3"><a href="termsand_conditions.html" class="color-gray text-decoration-none fw-600 text-uppercase me-3 fs-6">Terms&Conditions</a></li>
+            <li class="me-3"><a href="privacy-policy" class="color-gray text-decoration-none fw-600 text-uppercase me-3 fs-6">PRIVACY POLICY</a></li>
+            <li class="me-3"><a href="termsand_conditions" class="color-gray text-decoration-none fw-600 text-uppercase me-3 fs-6">Terms&Conditions</a></li>
           </ul>
           <div class="py-2">
             <h5 class="fw-bold mb-4">FOLLOW US ON</h5>
@@ -244,7 +244,7 @@
                         message: 'Please enter phone number',
                         rules:{
                           required: true,
-                          minlength: 1,
+                          minlength: 10,
                         }
                     }
                 }
@@ -255,7 +255,7 @@
                         message: 'Please enter lternate phone number',
                         rules:{
                           required: true,
-                          minlength: 1,
+                          minlength: 10,
                         }
                     }
                 }
@@ -266,7 +266,7 @@
                         message: 'Please enter whatsapp number',
                         rules:{
                           required: true,
-                          minlength: 1,
+                          maxlength: 10,
                         }
                     }
                 }
@@ -315,6 +315,23 @@
                 }
         }
     });
+    // if($('.validationRadio').hassClass('.has-error')){
+    //   $('.memshipError').removeClass('d-none')
+    // }
+    // if ($('.validationRadio').hasClass("has-error'")) {
+    //   $('.memshipError').removeClass('d-none')
+    //   $('.memshipError').addClass('d-block')
+    // }
+  //   $('body').on('keyup', '.phoneValidation', function () {
+  //   var $input = $(this),
+  //       value = $input.val(),
+  //       length = value.length,
+  //       inputCharacter = parseInt(value.slice(-1));
+
+  //   if (!((length > 1 && inputCharacter >= 0 && inputCharacter <= 9) || (length === 1 && inputCharacter >= 7 && inputCharacter <= 9))) {
+  //       $input.val(value.substring(0, length - 1));
+  //    }
+  // });
 });
 </script>
 </html>

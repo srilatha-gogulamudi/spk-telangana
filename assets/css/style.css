@@ -147,6 +147,14 @@ h1,h2,h3,h4,h5,h6,p{
 .custom-ps-1{
     padding-left:34%;
 }
+@media screen and (max-width:800px){
+    .fs-48{
+        font-size:20px;
+    }
+    .sub-title-m{
+        font-size:10px;
+    }
+}
 @media screen and (max-width:576px){
     .logo-mobile{
         width:60px;
