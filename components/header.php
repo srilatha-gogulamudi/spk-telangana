@@ -30,7 +30,7 @@
                 <a class="nav-link text-uppercase <?= ($activePage == 'index') ? 'active':''; ?>" aria-current="page" href="index">Home</a>
               </li>
               <li class="nav-item pe-2">
-                <a class="nav-link" href="#">THE SCIENTIFIC SAINT</a>
+                <a class="nav-link text-uppercase <?= ($activePage == 'scientificsaint') ? 'active':''; ?>" href="scientificsaint">THE SCIENTIFIC SAINT</a>
               </li>
               <!-- <li class="nav-item pe-2">
                 <a class="nav-link" href="#">TESTIMONIALS</a>
@@ -45,7 +45,7 @@
                 <a class="nav-link" href="#">ABOUT</a>
               </li> -->
               <li class="nav-item pe-2">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="allevents">CONTACT</a>
               </li>
               <li>
             </ul>

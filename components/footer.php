@@ -12,8 +12,8 @@
                 <li>Shyam Karan Road, Ameerpet,</li>
                 <li>Hyderabad - 500016, Telangana</li>
                 <li>Phone: +91 89776 13435, +91 89775 13435
-                <li>Email: <a href="office@sphoorthikutumbam.org">office@sphoorthikutumbam.org</a></li>
-                <li><a href="www.sphoorthikutumbam-telangana.org">www.sphoorthikutumbam-telangana.org</a></li>
+                <li>Email: <a href="mailto:office@sphoorthikutumbam.org">office@sphoorthikutumbam.org</a></li>
+                <li><a href="https://sphoorthikutumbam-telangana.org/">www.sphoorthikutumbam-telangana.org</a></li>
                 </li>
               </ul>
             </div>
