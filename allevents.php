@@ -10,7 +10,7 @@
     <div class="row text-center">
         <div class="col-md-12 px-0">
           <div class="register_bg px-md-5 py-md-5 def_p-1 vh-100">
-            <div class="col-md-8 col-12 text-center m-auto py-5">
+            <div class="col-md-8 col-12 text-center mx-auto py-5">
             <img src="assets/img/ts_logo.png" width="100px" class="logo-mobile" alt="logo"> 
             <h5 class="fw-bold mb-4 colo-danger">Sphoorthi Kutumbam</h5>
             <h1 class="fw-bold mb-4">WE ARE LAUNCHING SOON</h1>

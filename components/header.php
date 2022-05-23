@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 home-nav-ul">
               <li class="nav-item pe-2">
-                <a class="nav-link text-uppercase <?= ($activePage == 'index') ? 'active':''; ?>" aria-current="page" href="index">Home</a>
+                <a class="nav-link text-uppercase <?= ($activePage == 'index') ? 'active':''; ?>" aria-current="page" href="home">Home</a>
               </li>
               <li class="nav-item pe-2">
                 <a class="nav-link text-uppercase <?= ($activePage == 'scientificsaint') ? 'active':''; ?>" href="scientificsaint">THE SCIENTIFIC SAINT</a>
